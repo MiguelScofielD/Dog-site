@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 15%;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.conteiner-fluid {
+  padding: 5% 15%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.rotated {
+  transform: rotate(20deg);
+  /* Equal to rotateZ(45deg) */
+  position: absolute;
+  right: 25%;
+
+}
+
+@media(max-width:1195px){
+
+  .rotated {
+    transform: rotate(0deg);
+    /* Equal to rotateZ(45deg) */
+    position: static;
+
+  }
+
+  #title {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5%;
+  }
+
+}
+
+#features{
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.fa-solid{
+  color:#ef8172;
+  padding-bottom: 0.5rem;
+}
+
+.fa-solid:hover{
+  color: #ff4c68;
+}
+
+p{
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+/* Section Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin-bottom: 10%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* section press */
+#press{
+  padding: 7%;
+  text-align: center;
+  background-color:#ef8172;
+
+}
+
+.press-image{
+  width: 15%;
+}
+
+/* section pricing */
+#pricing{
+  text-align:center;
+  background-color:#FF5677;
+  color: #fff;
+}
+
+.xx{
+  color: #000;
+}
+
+.yy{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  color: #000;
+}
+
+
+
+.pp{
+  color: #fff;
+}
+
+#cta{
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.icon-espace{
+  margin:15px 10px;
+  font-size: 2.5rem;
+}
+
+.icon-espace:hover{
+  color: #ff4c68;
+}
